@@ -1,0 +1,149 @@
+
+@media all and (max-width:10px)
+{
+[contenu des instructions]
+}
+
+#wrap {
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    z-index: 99;
+    position: relative;
+    background-color:rgba(255, 161, 103, 0.584);
+    border-radius: 30px;
+}
+
+.navbar {
+    height: 40px;
+    padding: 0;
+    margin: auto;
+    position: absolute;
+}
+
+.navbar li {
+    height: auto;
+    width: 135.8px;
+    float: left;
+    text-align: center;
+    list-style: none;
+    font: normal bold 13px/1em Arial, Verdana, Helvetica;
+    padding: 0;
+    margin: auto;
+    justify-content: center;
+}
+
+.navbar a {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    padding: 18px 0;
+    border-left: 1px solid #ccc9c900;
+    text-decoration: none;
+    color: rgb(237, 197, 52);
+    display: block;
+    text-shadow: 1px 1px rgba(240, 152, 19, 0.908);
+    font-size: 1.1em;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(https://i.pinimg.com/564x/7e/0b/93/7e0b9393a594c8aaf023dbe3a4df6c4f.jpg);
+    background-attachment: fixed;
+    text-shadow: 1px 1px gray;
+}
+.Nom {
+    text-align: center;
+    font-family: 'Reem Kufi Fun', sans-serif; 
+}
+
+.explication {color: whitesmoke;
+    margin: auto;
+    height: 50px;
+    width: 100%;
+    border-radius: 30px;
+
+}
+
+
+img {
+    display: flex;
+    margin: auto;
+    height: 35%;
+    width: 35%;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: rgb(113, 112, 112);
+}
+
+
+.background {
+   padding: 0px;
+
+}
+
+.fonctionnement {
+    color: whitesmoke;
+}
+
+.comment {
+   margin: auto;
+   color: whitesmoke;
+}
+
+.conteneur {
+    margin: auto;
+}
+
+.Produit {
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 2px 2px rgb(180, 179, 176);
+    font-size: larger;
+}
+
+h2 {
+    color: rgb(237, 197, 52);
+    opacity: 100%;
+    text-shadow: 1px 1px rgba(240, 152, 19, 0.908);
+}
+
+.iPhone {
+    display: flex;
+    flex-direction: row;
+}
+
+.Produit {
+    width: 35%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 6px;
+}
+
+.acheter {
+    color: whitesmoke;
+}
+
+footer {
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+    border-radius: 10px;
+    font-size: smaller;
+    text-shadow: 1px 1px gray;
+}
+   
+.liste {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    padding: 18px 0;
+    border-left: 1px solid rgba(128, 128, 128, 0);
+    text-decoration: none;
+    color: rgba(250, 235, 215, 0);
+    display: block;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0);
+    margin: auto;
+    justify-content: center;
+}
